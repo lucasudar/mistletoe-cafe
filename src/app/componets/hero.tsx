@@ -37,7 +37,7 @@ const Hero = () => {
           <Image src="/assets/venzel.png" alt="Mistletoe flour & thyme" width="310" height="45"/>
         </div>
         <h1 className="font-playfairDisplay font-bold text-7xl mb-4">
-          We love good Coffee
+          We love good Coffee and Cats
         </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis elit et mi lobortis,
@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
       <div className="flex justify-center items-center">
         <Image
-          src="/assets/img/coffee-1.png" alt="Mistletoe flour & thyme" width="570" height="570"/>
+          src="/assets/img/cafe-cat.png" alt="Mistletoe flour & thyme" width="570" height="570"/>
       </div>
       {beanPositions.map((styles, index) => (
         <Image

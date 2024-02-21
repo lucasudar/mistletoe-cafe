@@ -19,6 +19,9 @@ const config: Config = {
       },
       backgroundImage: {
         'about-cafe': "url('/assets/img/coffee-plant.png')",
+        'gallery-tree': "url('/assets/img/gallery-tree.png')",
+        'gallery-cafe': "url('/assets/img/gallery-cafe.png')",
+        'gallery-chair': "url('/assets/img/gallery-chair.png')",
       },
       fontFamily: {
         "dmSans": ["DM Sans", "sans-serif"],
