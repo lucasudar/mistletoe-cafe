@@ -54,7 +54,7 @@ const Hero = () => {
         <Image
           className="z-[-1]"
           key={index}
-          src="/assets/bean.png"
+          src="/assets/img/bean.png"
           alt="bean"
           width="100"
           height="100"
