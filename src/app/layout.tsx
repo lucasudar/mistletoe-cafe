@@ -2,6 +2,7 @@ import type {Metadata} from "next";
 import {dmSans} from "@/app/fonts";
 import "./globals.css";
 import Navbar from "@/app/componets/Navbar";
+import Footer from "@/app/componets/Footer";
 
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
       <body className={dmSans.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

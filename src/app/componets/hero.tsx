@@ -40,8 +40,8 @@ const Hero = () => {
           We love good Coffee and Cats
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lobortis elit et mi lobortis,
-          sed varius tortor aliquam. Maecenas ac quam lacinia
+          Join us at our charming café where you&apos;ll be greeted by our friendly staff and our adorable mascots, Gin and
+          Tonic, ready to make your visit memorable.
         </p>
         <Link
           href="/"
@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
       <div className="flex justify-center items-center">
         <Image
-          src="/assets/img/cafe-cat.png" alt="Mistletoe flour & thyme" width="570" height="570"/>
+          src="/assets/img/cats.png" alt="Mistletoe flour & thyme" width="570" height="570"/>
       </div>
       {beanPositions.map((styles, index) => (
         <Image
