@@ -1,6 +1,6 @@
 "use client"
 
-import {useEffect, useRef, useMemo} from "react";
+import {useEffect, useRef} from "react";
 import {Loader} from "@googlemaps/js-api-loader";
 
 function GoogleMap() {
@@ -24,7 +24,7 @@ function GoogleMap() {
       }
       const mapOptions: google.maps.MapOptions = {
         center: position,
-        zoom: 17,
+        zoom: 15,
         mapId: "e7e7e7e7e7e7e7e7",
         disableDefaultUI: true,
         zoomControl: true,
