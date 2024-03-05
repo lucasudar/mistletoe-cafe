@@ -1,9 +1,9 @@
 "use client";
 
 import Image from 'next/image';
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Link from "next/link";
-import { RxHamburgerMenu } from "react-icons/rx";
+import {RxHamburgerMenu} from "react-icons/rx";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -30,20 +30,23 @@ const Navbar = () => {
           <button
             onClick={() => setShowMenu(!showMenu)}
             className="text-pastel3 text-xl focus:outline-none">
-            <RxHamburgerMenu />
+            <RxHamburgerMenu/>
           </button>
         </div>
-        <nav className="hidden py-[39px] font-dmSans font-bold text-xl text-pastel3 flex-row items-center gap-6 md:gap-3 sm:gap-2 xs:gap-2 col-span-3 md:flex">
+        <nav
+          className="hidden py-[39px] font-dmSans font-bold text-xl text-pastel3 flex-row items-center gap-6 md:gap-3 sm:gap-2 xs:gap-2 col-span-3 md:flex">
           <Link href="/">
             <span className="hover:underline hover:text-red hover:ease-in duration-250 underline-offset-8">Home</span>
           </Link>
           <div className="bg-pastel3 w-[9px] h-[9px] rounded"></div>
           <Link href="/">
-            <span className="hover:underline hover:text-red hover:ease-in duration-250 underline-offset-8">Our cafe</span>
+            <span
+              className="hover:underline hover:text-red hover:ease-in duration-250 underline-offset-8">Our cafe</span>
           </Link>
           <div className="bg-pastel3 w-[9px] h-[9px] rounded"></div>
           <Link href="/">
-            <span className="hover:underline hover:text-red hover:ease-in duration-250 underline-offset-8">About Us</span>
+            <span
+              className="hover:underline hover:text-red hover:ease-in duration-250 underline-offset-8">About Us</span>
           </Link>
         </nav>
       </div>
