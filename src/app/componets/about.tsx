@@ -6,17 +6,6 @@ const About = () => {
   return (
     <div
       className="grid grid-cols-1 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 h-screen">
-      <div
-        className="bg-about-cafe right-0 bottom-0 w-full h-full overflow-hidden bg-center bg-no-repeat bg-contain bg-pastel3">
-        <div className="flex flex-col h-full items-center justify-center px-4">
-          <Image
-            src="/assets/img/cafe-entry.png"
-            alt="Mistletoe flour & thyme"
-            width="570"
-            height="570"
-          />
-        </div>
-      </div>
       <div className="relative flex flex-col h-full justify-center bg-pastel3">
         <div
           className="bg-about-cafe w-full h-full absolute right-0 top-0 overflow-hidden bg-no-repeat bg-center bg-contain rotate-180"></div>
@@ -36,6 +25,17 @@ const About = () => {
               <span className="text-red font-bold underline underline-offset-4">Explore more</span>
             </Link>
           </div>
+        </div>
+      </div>
+      <div
+        className="bg-about-cafe right-0 bottom-0 w-full h-full overflow-hidden bg-center bg-no-repeat bg-contain bg-pastel3">
+        <div className="flex flex-col h-full items-center justify-center px-4">
+          <Image
+            src="/assets/img/cafe-entry.png"
+            alt="Mistletoe flour & thyme"
+            width="570"
+            height="570"
+          />
         </div>
       </div>
     </div>

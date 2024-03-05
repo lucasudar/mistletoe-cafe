@@ -17,7 +17,7 @@ const Gallery = () => {
       </div>
       <div className="2xl:px-32 xl:px-16 lg:px-10 md:px-8 sm:px-5 xs:px-3 grid grid-rows-1 grid-flow-col gap-4 overflow-x-auto">
         <PhotoProvider>
-          {[...Array(17)].map((_, i) => (
+          {[...Array(21)].map((_, i) => (
             <PhotoView key={i} src={`/assets/img/${i + 1}.JPG`}>
               <div className="bg-white h-80 w-64 rounded-lg flex flex-col justify-around items-center object-contain">
                 <Image
